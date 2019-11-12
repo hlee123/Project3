@@ -1,0 +1,108 @@
+body {
+  background-color: dimgray;
+}
+li, p {
+  text-align: center;
+  color: lightblue;
+}
+ul{
+  list-style-type: none;
+}
+nav{
+  border: solid navy;
+  margin: 0;
+  text-align: center;
+  font-family: 'Nanum Gothic',helvetica, sans-serif;
+  background-color: lightblue;
+
+}
+nav li {
+  display: inline;
+  text-align: center;
+}
+
+nav li a{
+  color: olive;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+h1, h2, h3, h4{
+  font-family: 'Nanum Gothic',helvetica, sans-serif;
+  text-align:center;
+}
+h1 {
+  font-size: 300%;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+h2 {
+  color: lightpink;
+}
+h3 {
+  color: powderblue;
+}
+
+img {
+  padding-left: 240px;
+  height: auto;
+}
+embed{
+  padding-left: 530px;
+	height: auto;
+}
+
+#fixed {
+  width: 1349px;
+}
+h1.resume {
+  color: yellow;
+}
+ul.resume{
+  font-weight: bold;
+}
+h2.resume{
+  font-style: italic;
+}
+h2.resume2{
+  font-style: oblique;
+}
+h2.resume3{
+  color: red;
+}
+
+
+
+img.index{
+  padding-left: 300px;
+}
+h1.index{
+  color: white;
+}
+p.index{
+  color: lightgreen;
+}
+p.index2{
+  font-style: italic;
+}
+h4.index{
+  color: black;
+}
+
+
+h1.blog{
+  color: lightblue;
+}
+h3.blog{
+  font-style: italic;
+}
+h4.blog{
+  color: black;
+}
+p.blog2{
+  color: yellow;
+}
+p.blog{
+  color: white;
+}
