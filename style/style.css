@@ -114,14 +114,14 @@ embed.blog{
   margin: auto;
 }
 
-@media screen and (min-width 400px){
+@media only screen and (min-width 400px){
   body {
     width: 400px;
     background-color: lightgreen;
   }
 }
 
-@media screen and (min-width 600px){
+@media only screen and (min-width 600px){
   body {
     width:600px;
     background-color: white;
