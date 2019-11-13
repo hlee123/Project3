@@ -116,12 +116,19 @@ embed.blog{
 
 
 @media only screen and (min-width: 400px){
+  body{
+    background-color: white;
+  }
+
   p.blog2{
     font-size: 200%;
   }
 }
 
 @media only screen and (min-width: 620px){
+  body{
+    background-color: black;
+  }
   p.blog{
     font-size: 200%;
   }
