@@ -116,15 +116,12 @@ embed.blog{
 
 @media only screen and (min-width 400px){
   body {
-    width: 400px;
     background-color: lightgreen;
   }
 }
 
 @media only screen and (min-width 600px){
   body {
-    width:600px;
     background-color: white;
   }
-  
 }
