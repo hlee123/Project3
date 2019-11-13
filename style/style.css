@@ -115,21 +115,16 @@ embed.blog{
 }
 
 @media screen and (min-width 400px){
-  .indexdiv {
+  body {
     width: 400px;
     background-color: lightgreen;
-  }
-  .indexdiv nav{
-    background-color: red;
   }
 }
 
 @media screen and (min-width 600px){
-  .indexdiv {
+  body {
     width:600px;
     background-color: white;
   }
-  .indexdiv nav{
-    background-color: blue;
-  }
+  
 }
