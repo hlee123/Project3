@@ -45,11 +45,9 @@ h3 {
 }
 
 img {
-  padding-left: 240px;
   height: auto;
 }
 embed{
-  padding-left: 530px;
 	height: auto;
 }
 
@@ -75,7 +73,8 @@ h2.resume3{
 
 
 img.index{
-  padding-left: 300px;
+  display: block;
+  margin: auto;
 }
 h1.index{
   color: white;
@@ -105,4 +104,32 @@ p.blog2{
 }
 p.blog{
   color: white;
+}
+img.blog{
+  display: block;
+  margin: auto;
+}
+embed.blog{
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width 400px){
+  .indexdiv {
+    width: 400px;
+    background-color: lightgreen;
+  }
+  .indexdiv nav{
+    background-color: red;
+  }
+}
+
+@media screen and (min-width 600px){
+  .indexdiv {
+    width:600px;
+    background-color: white;
+  }
+  .indexdiv nav{
+    background-color: blue;
+  }
 }
