@@ -114,14 +114,15 @@ embed.blog{
   margin: auto;
 }
 
-@media only screen and (min-width 400px){
-  body {
-    background-color: lightgreen;
+@media only screen and (min-width: 400px){
+  h1.index{
+    color: red;
   }
 }
 
-@media only screen and (min-width 600px){
-  body {
-    background-color: white;
+
+@media only screen and (min-width: 600px){
+  h1.index{
+    color: blue;
   }
-}
+
