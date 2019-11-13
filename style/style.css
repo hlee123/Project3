@@ -119,17 +119,37 @@ embed.blog{
   body{
     background-color: white;
   }
-
   p.blog2{
     font-size: 200%;
   }
+  h1.index{
+    color: black;
+  }
+  img.index{
+    margin: 0;
+  }
+  .indexdiv nav{
+      border: solid green;
+      background-color: lightgreen;
+  }
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 600px){
   body{
     background-color: black;
   }
   p.blog{
     font-size: 200%;
   }
+  h1.index{
+    color: white;
+  }
+  img.index{
+    margin: 0;
+  }
+  .indexdiv nav{
+      border: solid gray;
+      background-color: dimgray;
+  }
 }
+
