@@ -115,18 +115,21 @@ embed.blog{
 }
 
 
+
 @media only screen and (min-width: 400px){
-  body{
+  .indexdiv body{
     background-color: white;
   }
   p.blog2{
     font-size: 200%;
   }
   h1.index{
+    border: solid white;
     color: black;
+    margin: 0;
   }
   img.index{
-    margin: 0;
+    width: 500px;
   }
   .indexdiv nav{
       border: solid green;
@@ -135,21 +138,21 @@ embed.blog{
 }
 
 @media only screen and (min-width: 600px){
-  body{
+  .indexdiv body{
     background-color: black;
   }
-  p.blog{
-    font-size: 200%;
+  p.index{
+    color: lightblue;
   }
   h1.index{
+    border: none;
     color: white;
   }
   img.index{
-    margin: 0;
+    width: 900px;
   }
   .indexdiv nav{
-      border: solid gray;
-      background-color: dimgray;
+      border: solid navy;
+      background-color: lightblue;
   }
 }
-
