@@ -114,38 +114,40 @@ embed.blog{
   margin: auto;
 }
 
-
-@media only screen and (min-width: 300px){
-  .indexdiv body{
-    background-color: white;
+@media only screen and (min-width: 400px){
+  .indexdiv{
+    background-color: black;
   }
   p.index{
-    color: lightgreen;
+    color: white;
   }
   h1.index{
     border: solid white;
-    color: black;
+    color: yellow;
     margin: 0;
   }
   img.index{
     width: 500px;
   }
   .indexdiv nav{
-      border: solid green;
-      background-color: lightgreen;
+    border: solid white;
+    background-color: navy;
+  }
+  h4.index{
+    color: red;
   }
 }
 
 @media only screen and (min-width: 600px){
-  .indexdiv body{
-    background-color: black;
+  .indexdiv{
+    background-color: lightgreen;
   }
   p.index{
-    color: lightblue;
+    color: navy;
   }
   h1.index{
     border: none;
-    color: white;
+    color: black;
   }
   img.index{
     width: 900px;
@@ -153,6 +155,9 @@ embed.blog{
   .indexdiv nav{
       border: solid navy;
       background-color: lightblue;
+  }
+  .index2{
+    color: red;
   }
 }
 
