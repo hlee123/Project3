@@ -115,13 +115,12 @@ embed.blog{
 }
 
 
-
 @media only screen and (min-width: 400px){
   .indexdiv body{
     background-color: white;
   }
-  p.blog2{
-    font-size: 200%;
+  p.index{
+    color: lightgreen;
   }
   h1.index{
     border: solid white;
@@ -156,3 +155,11 @@ embed.blog{
       background-color: lightblue;
   }
 }
+
+#map {
+  height: 480px;
+  width: 800px;
+  display: block;
+  margin: auto;
+}
+
