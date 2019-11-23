@@ -26,8 +26,13 @@ nav li a{
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
+slider{
+  display: none;
+}
+#video{
+  width: 960px;
+  height: 600px;
+}
 h1, h2, h3, h4{
   font-family: 'Nanum Gothic',helvetica, sans-serif;
   text-align:center;
@@ -50,7 +55,6 @@ img {
 embed{
 	height: auto;
 }
-
 #fixed {
   width: 1349px;
 }
@@ -167,4 +171,3 @@ embed.blog{
   display: block;
   margin: auto;
 }
-
